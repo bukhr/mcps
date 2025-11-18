@@ -1,0 +1,45 @@
+Metrics/BlockLength:
+  Max: 100
+
+Metrics/ClassLength:
+  Max: 1000
+
+Metrics/MethodLength:
+  Max: 200
+
+Metrics/CyclomaticComplexity:
+  Max: 20
+
+Metrics/PerceivedComplexity:
+  Max: 30
+
+Metrics/AbcSize:
+  Max: 30
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Layout/EndOfLine:
+  EnforcedStyle: lf
+
+Layout/ParameterAlignment:
+  EnforcedStyle: with_first_parameter
+
+Layout/TrailingEmptyLines:
+  EnforcedStyle: final_newline
+
+Layout/IndentationWidth:
+  Width: 2
+
+Layout/IndentationConsistency:
+  EnforcedStyle: indented_internal_methods
+
+Layout/EmptyLinesAroundExceptionHandlingKeywords:
+  Enabled: false
+
+Layout/EmptyLineBetweenDefs:
+  EmptyLineBetweenClassDefs: false
+  EmptyLineBetweenModuleDefs: false
+  AllowAdjacentOneLineDefs: false
+  DefLikeMacros: ["should", "should_for", "context", "context_for", "setup"]
+  Enabled: true
