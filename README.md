@@ -13,6 +13,10 @@ Los servidores de este repositorio están desarrollados con:
 - [Ruby MCP SDK](https://github.com/modelcontextprotocol/ruby-sdk): SDK oficial para la implementación de servidores MCP en Ruby.
 - Ruby 3.2+: Versión mínima requerida para ejecutar los servidores.
 
+## Implementaciones disponibles
+
+- [Jenkins MCP](jenkins/): Permite interactuar con servidores Jenkins para obtener información sobre builds y logs de ejecución.
+
 ## Requisitos generales
 
 - Ruby 3.2 o superior

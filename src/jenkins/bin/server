@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require 'mcp'
+
+# Añadir el directorio de la aplicación al path
+$LOAD_PATH.unshift File.expand_path('../app', __dir__)
+
+# Cargar los archivos de la aplicación
+require 'version'
+require 'server'
+
+# Iniciar el servidor MCP
+JenkinsMCP::Server.start
